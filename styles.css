@@ -16,15 +16,15 @@ body {
 body {
   display: flex;
   flex-direction: column;
+  height: 150%;
 }
-
 
 /* ~~~~~~~ NAV RULES ~~~~~~~ */
 
 .nav-bar {
   display: flex;
   justify-content: space-between;
-  height: 20%;
+  height: 10%;
 }
 
 .nav-bar-links {
@@ -46,11 +46,30 @@ body {
 .main-section {
   display: flex;
   flex-direction: column;
+  height: 100%;
+  overflow: scroll;
+}
+
+.main-section-shares {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 10%;
 }
 
 /* ~~~~~~~ GRID RULES ~~~~~~~ */
 
 .grid-section {
   display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  overflow: scroll;
+  grid-gap: 20px;
+  padding: 20px;
+  height: 100%;
+}
+
+.grid-card {
+  height: 100%;
+  background-color: cadetblue;
 }
 
