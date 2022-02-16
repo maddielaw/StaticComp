@@ -1,0 +1,56 @@
+
+/* ~~~~~~~ GLOBAL RULES ~~~~~~~ */
+
+* {
+  border: 1px solid aquamarine;
+  padding: 0px;
+  margin: 0px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* ~~~~~~~ NAV RULES ~~~~~~~ */
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  height: 20%;
+}
+
+.nav-bar-links {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.nav-bar-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+/* ~~~~~~~ MAIN RULES ~~~~~~~ */
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ~~~~~~~ GRID RULES ~~~~~~~ */
+
+.grid-section {
+  display: grid;
+}
+
