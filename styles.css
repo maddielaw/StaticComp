@@ -1,4 +1,5 @@
 
+
 /* ~~~~~~~ GLOBAL RULES ~~~~~~~ */
 
 * {
@@ -191,5 +192,14 @@ body {
   color: #ee6c4d;
 }
 
+
+
+/* ~~~~~~~ GRID CARD IMAGE RULES ~~~~~~~ */
+
+.diversity-img {
+  background-image: url('assets/john-schaidler-9V3Q2W_mRLE-unsplash.jpg');
+  background-size: 320px;
+  opacity: 0.5;
+}
 
 
