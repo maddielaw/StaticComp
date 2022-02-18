@@ -133,9 +133,13 @@ body {
 .num-views {
   display: flex;
   flex-direction: column;
-  height: 10%;
+  align-items: center;
+  height: 45%;
+  width: 15%;
   margin-top: 10px;
   margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0.762);
+  border-radius: 5px;
 }
 
 .num {
@@ -199,7 +203,7 @@ body {
 .diversity-img {
   background-image: url('assets/john-schaidler-9V3Q2W_mRLE-unsplash.jpg');
   background-size: 320px;
-  opacity: 0.5;
 }
+
 
 
