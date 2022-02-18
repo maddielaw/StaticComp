@@ -39,6 +39,12 @@ body {
   margin-bottom: 10px;
 }
 
+.nav-bar-links p:hover,
+.admin-username:hover,
+.URL:hover {
+  color: #ee6c4d;
+}
+
 .nav-bar-logo {
   display: flex;
   flex-direction: column;
