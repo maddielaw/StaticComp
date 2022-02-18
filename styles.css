@@ -2,7 +2,7 @@
 /* ~~~~~~~ GLOBAL RULES ~~~~~~~ */
 
 * {
-  border: 1px solid aquamarine;
+  /* border: 1px solid aquamarine; */
   padding: 0px;
   margin: 0px;
 }
@@ -48,6 +48,7 @@ body {
 .header {
   font-family: 'Raleway', sans-serif;
   font-size: 50px;
+  margin-right: 10px;
 }
 
 .admin-username {
@@ -100,6 +101,7 @@ body {
   align-items: center;
   justify-content: space-between;
   height: 90%;
+  border-radius: 5px;
   background-color: #e0fbfc;
   font-family: 'Open Sans', sans-serif;
 }
@@ -109,6 +111,7 @@ body {
   justify-content: space-between;
   height: 25%;
   width: 100%;
+  border-radius: 5px;
   background-color: #ee6c4d;
 }
 
@@ -136,6 +139,7 @@ body {
   align-items: center;
   height: 10%;
   width: 90%;
+  border-radius: 5px;
   background-color: #3d5a80;
 }
 
