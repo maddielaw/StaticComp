@@ -51,6 +51,12 @@ body {
   width: 20%;
 }
 
+.playlist-container {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+}
+
 .nav-bar-logo {
   display: flex;
   flex-direction: column;
