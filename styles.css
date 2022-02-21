@@ -45,6 +45,12 @@ body {
   color: #ee6c4d;
 }
 
+.share-container {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+}
+
 .nav-bar-logo {
   display: flex;
   flex-direction: column;
