@@ -3,7 +3,6 @@
 /* ~~~~~~~ GLOBAL RULES ~~~~~~~ */
 
 * {
-  /* border: 1px solid aquamarine; */
   padding: 0px;
   margin: 0px;
 }
@@ -196,8 +195,6 @@ body {
   color: #ee6c4d;
 }
 
-
-
 /* ~~~~~~~ GRID CARD IMAGE RULES ~~~~~~~ */
 
 .diversity-img {
@@ -233,4 +230,9 @@ body {
 .SQL-img {
   background-image: url('assets/sunder-muthukumaran-n7eJHQwefeI-unsplash.jpg');
   background-size: 140px;
+}
+
+.excel-img {
+  background-image: url('assets/mika-baumeister-Wpnoqo2plFA-unsplash.jpg');
+  background-size: 330px;
 }
