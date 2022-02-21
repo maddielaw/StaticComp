@@ -68,12 +68,18 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-end;
-  width: 25%;
+  width: 40%;
 }
 
 .header {
   font-family: 'Raleway', sans-serif;
   font-size: 50px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
 }
 
 .admin-username {
@@ -84,7 +90,7 @@ body {
 .username-container {
   display: flex;
   justify-content: space-around;
-  width: 55%;
+  width: 33%;
 }
 
 
